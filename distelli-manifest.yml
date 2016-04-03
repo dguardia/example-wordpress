@@ -1,11 +1,11 @@
-<SET_ME_DISTELLI_USERNAME>/wordpress:
+dguardia/wordpress:
       
   Env:
     # Set the variables below
-    - MYSQL_ROOT_PASSWORD: "<SET_ME>"
-    - DB_NAME: "<SET_ME>"
-    - DB_USER_NAME: "<SET_ME>"
-    - DB_USER_PASSWORD: "<SET_ME>"
+    - MYSQL_ROOT_PASSWORD: "root"
+    - DB_NAME: "distelli_wordpress"
+    - DB_USER_NAME: "root"
+    - DB_USER_PASSWORD: "root"
 
   PkgInclude:
     - '*'
